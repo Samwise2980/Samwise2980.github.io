@@ -1,30 +1,39 @@
-/* body {
-  background-color: #97BC62FF;
-  color: #2C5F2D;
+body {
+  background-color: #212121;
+  color: #ffffff;
 }
 
-#navbar {
-  background-color: #2C5F2D;
-  color: #97BC62FF;
+nav {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  background-color: #000000;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.205);
 }
 
-#nav-name {
-  color: #97BC62FF;
+#main-container {
+  background-color: #303030;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+
 }
 
-.nav-item {
-  color: #97BC62FF;
+hr {
+  border-color: rgba(255, 255, 255, 0.541);
 }
 
+#profile-pic {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
 
-a {
-  color: black;
-} */
+}
 
+.portfolio {
+  background-color: #424242;
+  border-radius: 10px;
+
+}
 
 @media (min-width: 400px) {
   #profile-pic {
-    max-width: 30%;
+    max-width: 250px;
     height: auto;
   }
 }

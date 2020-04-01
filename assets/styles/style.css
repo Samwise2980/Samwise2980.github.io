@@ -1,4 +1,4 @@
-body {
+/* body {
   background-color: #97BC62FF;
   color: #2C5F2D;
 }
@@ -16,6 +16,15 @@ body {
   color: #97BC62FF;
 }
 
+
 a {
   color: black;
+} */
+
+
+@media (min-width: 400px) {
+  #profile-pic {
+    max-width: 30%;
+    height: auto;
+  }
 }

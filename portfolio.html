@@ -1,24 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/style.css">
-    <title>Portfolio</title>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="./assets/styles/style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
 </head>
+
 <body>
-    <header>
-        <h1>Portfolio</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Bio</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact Me</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section>
-        <a href="https://samwise2980.github.io/pandas-are-forever/" target="_blank"><img src="https://miro.medium.com/max/3006/1*i1vVm3EqqDIkyucD0079wg.jpeg" width="200" height="150" >Pandas are Forever!</a></section>
-    </section>
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <span class="navbar-brand mb-0 h1">Samuel Foster</span>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="index.html">About Me</a>
+                <a class="nav-item nav-link active" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="contact.html">Contact</a>
+            </div>
+        </div>
+
+    </nav>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col mt-3">
+                <h2>Portfolio</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col mb-3">
+                <hr>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm mb-3">
+                <a href="https://sylhuynh.github.io/moodies/index.html" target="_blank"><img src="./assets/images/moodies-mobile.PNG" alt="Moodies Mobile Page" width="200px"></a>
+            </div>
+            <div class="col-sm mb-3">
+                <a href="https://samwise2980.github.io/coding-quiz/" target="_blank"><img src="./assets/images/coding-quiz-mobile.PNG" alt="Coding Quiz Mobile Page" width="200px"></a>
+            </div>
+            <div class="col-sm mb-3">
+                <a href="https://samwise2980.github.io/weather-dashboard/" target="_blank"><img src="./assets/images/weather-dashboard-mobile.PNG" alt="Weather Dashboard Mobile Page" width="200px"></a>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>

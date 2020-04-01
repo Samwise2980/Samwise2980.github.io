@@ -1,6 +1,21 @@
 body {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  background-color: #97BC62FF;
+  color: #2C5F2D;
 }
 
+#navbar {
+  background-color: #2C5F2D;
+  color: #97BC62FF;
+}
+
+#nav-name {
+  color: #97BC62FF;
+}
+
+.nav-item {
+  color: #97BC62FF;
+}
+
+a {
+  color: black;
+}

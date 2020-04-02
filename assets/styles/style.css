@@ -25,11 +25,16 @@ hr {
 
 }
 
-.portfolio {
+.portfolio{
   border-radius: 10px;
   padding: 10px 0 10px 0;
-
+  background-color: #424242;
 }
+
+.portfolio-image:hover {
+  opacity: 80%;
+}
+
 
 @media (min-width: 400px) {
   #profile-pic {

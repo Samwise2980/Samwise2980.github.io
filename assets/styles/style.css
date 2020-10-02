@@ -4,9 +4,19 @@ body {
 }
 
 .landingPage {
-  background-image: url("../images/palmynights.png");
+  background-image: url("../images/backdroplanding.jpg");
   background-position: center;
   height: 100vh;
+  position: relative;
+}
+
+.landing-name-column {
+  margin-top: 35vh;
+}
+
+.landing-name {
+  font-size: 100px;
+  text-shadow: 1px 1px 5px #111111;
 }
 
 nav {

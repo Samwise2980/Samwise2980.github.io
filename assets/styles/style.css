@@ -3,6 +3,20 @@ body {
   color: #ffffff;
 }
 
+a {
+  color: white;
+}
+
+ul#horizontal-list {
+  list-style: none outside;
+}
+
+ul#horizontal-list li {
+  padding: 10px;
+  display: inline;
+  text-shadow: 1px 1px 5px #111111;
+}
+
 .landingPage {
   background-image: url("../images/backdroplanding.jpg");
   background-position: center;
@@ -20,7 +34,7 @@ body {
 }
 
 nav {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color: #303030;
   border-bottom: 1px solid rgba(255, 255, 255, 0.205);
 }
@@ -28,8 +42,7 @@ nav {
 #main-container {
   background-color: #303030;
   border-radius: 5px;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 hr {
@@ -37,11 +50,10 @@ hr {
 }
 
 #profile-pic {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.portfolio{
+.portfolio {
   border-radius: 10px;
   padding: 10px 0 10px 0;
   background-color: #424242;
@@ -50,7 +62,6 @@ hr {
 .portfolio-image:hover {
   opacity: 80%;
 }
-
 
 @media (min-width: 400px) {
   #profile-pic {

@@ -9,6 +9,7 @@ a {
 
 ul#horizontal-list {
   list-style: none outside;
+  padding: 0px;
 }
 
 ul#horizontal-list li {
@@ -25,24 +26,40 @@ ul#horizontal-list li {
 }
 
 .landing-name-column {
-  margin-top: 35vh;
+  margin-top: 26vh;
 }
 
 .landing-name {
   font-size: 100px;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 10px #111111;
+}
+
+.landing-name-sub {
+  font-size: 50px;
   text-shadow: 1px 1px 5px #111111;
 }
 
 nav {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #30303000;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+  color: #ffffff;
+  text-shadow: 1px 1px 5px #000000;
+
+}
+
+.navbar-toggler{
+  color: #ffffff;
   background-color: #303030;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.205);
+
 }
 
 #main-container {
-  background-color: #303030;
-  border-radius: 5px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* background-color: #303030; */
+  /* border-radius: 5px; */
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
 hr {

@@ -81,6 +81,7 @@ hr {
     text-align: center !important;
   }
   .text-float-right {
+    padding-top: 25px;
     text-align: center !important;
   }
 }

@@ -1,6 +1,6 @@
 body {
-  background-color: #212121;
-  color: #ffffff;
+  background-color: #d9d5c6;
+  color: #000000;
 }
 
 a {
@@ -51,11 +51,18 @@ nav {
 }
 
 hr {
-  border-color: rgba(255, 255, 255, 0.541);
+  border-color: #000000;
 }
 
 #profile-pic {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#aboutme-text-col {
+  border-radius: 10px;
+  color: #ffffff;
+  background-color: #6f6455;
+  margin: 5px;
 }
 
 .portfolio {
@@ -69,7 +76,6 @@ hr {
 }
 
 @media (max-width: 700px) {
-
   .landing-name-column {
     margin-top: 18vh;
   }
@@ -80,26 +86,26 @@ hr {
   #aboutme-profile-col {
     text-align: center !important;
   }
-  #aboutme-text-col  {
+  #aboutme-text-col {
+    margin-top: 10px;
     padding-top: 25px;
     text-align: center !important;
   }
 }
 
 @media (min-width: 701px) {
-
   #aboutme-profile-col {
     float: left !important;
     margin: 9% 50px;
   }
   #aboutme-text-col {
-    float:left !important;
-    margin-top: 5%;
+    float: left !important;
+    padding-top: 5%;
   }
   .landing-name-column {
     margin-top: 26vh;
   }
-  
+
   #profile-pic {
     max-width: 250px;
     height: auto;

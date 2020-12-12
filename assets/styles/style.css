@@ -77,10 +77,10 @@ hr {
     max-width: 250px;
     height: auto;
   }
-  .text-float-left {
+  #aboutme-profile-col {
     text-align: center !important;
   }
-  .text-float-right {
+  #aboutme-text-col  {
     padding-top: 25px;
     text-align: center !important;
   }
@@ -88,11 +88,11 @@ hr {
 
 @media (min-width: 701px) {
 
-  .text-float-left {
+  #aboutme-profile-col {
     float: left !important;
     margin: 9% 50px;
   }
-  .text-float-right {
+  #aboutme-text-col {
     float:left !important;
     margin-top: 5%;
   }

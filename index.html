@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
-  <link rel="stylesheet" href="./assets/styles/style.css" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About Me</title>
-</head>
-
-<body>
-  <section>
-    <div class="landingPage">
-      <!-- <section class="container" id="home">
+  <body>
+    <section>
+      <div class="landingPage">
+        <!-- <section class="container" id="home">
           <nav class="navbar navbar-expand-md navbar-dark" id="navbar">
             <button
               class="navbar-toggler"
@@ -41,180 +44,289 @@
           </nav>
         </section> -->
 
-      <div class="container">
+        <div class="container">
+          <div class="row">
+            <div class="landing-name-column col title text-center">
+              <h1 class="landing-name">Samuel Foster</h1>
+              <h1 class="landing-name-sub">Full Stack Web Developer</h1>
+            </div>
+          </div>
+
+          <div class="row mt-5">
+            <div class="col text-center">
+              <ul id="horizontal-list">
+                <li>
+                  <a
+                    href="mailto:samuelfoster0@gmail.com?Subject=Hello%20Samuel"
+                    target="_top"
+                    ><i class="fas fa-envelope-open-text fa-2x"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="./assets/Samuel Foster Resume.pdf" target="_blank">
+                    <i class="far fa-file fa-2x"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://github.com/Samwise2980" target="_blank">
+                    <i class="fab fa-github fa-2x"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/samuel-foster-67205519b/"
+                    target="_blank"
+                  >
+                    <i class="fab fa-linkedin fa-2x"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container my-5" id="main-container">
         <div class="row">
-          <div class="landing-name-column col title text-center">
-            <h1 class="landing-name">Samuel Foster</h1>
-            <h1 class="landing-name-sub">Full Stack Web Developer</h1>
+          <div class="col mt-3 title-text text-center">
+            <!-- <h3>About Me</h3> -->
           </div>
         </div>
 
-        <div class="row mt-5">
-          <div class="col text-center">
-            <ul id="horizontal-list">
-              <li>
-                <a href="mailto:samuelfoster0@gmail.com?Subject=Hello%20Samuel" target="_top"><i
-                    class="fas fa-envelope-open-text fa-2x"></i></a>
-              </li>
-              <li>
-                <a href="./assets/Samuel Foster Resume.pdf" target="_blank">
-                  <i class="far fa-file fa-2x"></i>
-                </a>
-              </li>
-              <li>
-                <a href="https://github.com/Samwise2980" target="_blank">
-                  <i class="fab fa-github fa-2x"></i>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.linkedin.com/in/samuel-foster-67205519b/" target="_blank">
-                  <i class="fab fa-linkedin fa-2x"></i></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="about">
-    <div class="container my-5" id="main-container">
-      <div class="row">
-        <div class="col mt-3 title-text text-center">
-          <h3>About Me</h3>
-        </div>
-      </div>
-
-      <div class="row">
+        <!-- <div class="row">
         <div class="col">
           <hr />
         </div>
-      </div>
+      </div> -->
 
-      <div class="row">
-
-      </div>
-
-      <div class="row">
-        <div class="col">
-          <div class="col" id="aboutme-profile-col">
-            <img class="m img-fluid" id="profile-pic" src="./assets/images/profilephoto.jpg" />
+        <div class="row">
+          <div class="col">
+            <div class="col" id="aboutme-profile-col">
+              <img
+                class="m img-fluid"
+                id="profile-pic"
+                src="./assets/images/profilephoto.jpg"
+              />
+            </div>
+          </div>
+          <div class="col" id="aboutme-text-col">
+            <p>
+              Hey there, my name is Samuel Foster. I am a full stack developer
+              with passions and curiosity as far as my resources can guide me.
+              The matrix is a place filled with questions and I'm here to find
+              the answers!
+            </p>
+            <p>
+              My inspirations have sprouted primarly through my own personal
+              hobbies i.e Table Top Games, Video Games, Photography, Film, ect.;
+              however, I am very excited to delve into each new challenging
+              adventure armed with discipline and Google Fu!
+            </p>
           </div>
         </div>
-        <div class="col" id="aboutme-text-col">
-          <p>
-            Hey there, my name is Samuel Foster. I am a full stack developer
-            with passions and curiosity as far as my resources can guide me.
-            The matrix is a place filled with questions and I'm here to find
-            the answers!
-          </p>
-          <p>
-            My inspirations have sprouted primarly through my own personal
-            hobbies i.e Table Top Games, Video Games, Photography, Film,
-            ect.; however, I am very excited to delve into each new
-            challenging adventure armed with discipline and Google Fu!
-          </p>
-        </div>
-      </div>
-      
-      <div class="row">
+
+        <!-- <div class="row">
         <div class="col">
           <hr />
         </div>
+      </div> -->
       </div>
-    </div>
-  </section>
+    </section>
 
+    <section id="portfolio">
+      <div class="container my-5" id="main-container">
+        <div class="row">
+          <div class="col title-text text-center mt-3">
+            <!-- <h2>Portfolio</h2> -->
+          </div>
+        </div>
 
-  <section id="portfolio">
-    <div class="container my-5" id="main-container">
-      <div class="row">
-        <div class="col title-text text-center mt-3">
-          <h2>Portfolio</h2>
+        <div class="row">
+          <div class="col mb-3">
+            <hr />
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+          <div class="col text-center portfolio">
+            <a href="https://gamersaurus.herokuapp.com/" target="_blank"
+              ><img
+                src="./assets/images/gamersaurus.png"
+                class="portfolio-image card-img-top"
+                alt="Gamersaurus Mobile Page"
+            /></a>
+            <div class="card-body text-center">
+              <a href="https://github.com/amboffman/gamersaurus" target="_blank"
+                ><i class="fab fa-github fa-3x portfolio-link"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col portfolio-text-right">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ad,
+              soluta voluptatibus, recusandae, magnam eius necessitatibus vel
+              cum error quidem magni dolorem tempora tempore dolor?
+            </p>
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+          <div class="col portfolio-text-left">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ad,
+              soluta voluptatibus, recusandae, magnam eius necessitatibus vel
+              cum error quidem magni dolorem tempora tempore dolor?
+            </p>
+          </div>
+
+          <div class="col text-center portfolio">
+            <a href="https://whats-up-there.herokuapp.com/" target="_blank"
+              ><img
+                src="./assets/images/whats-up-there.png"
+                class="portfolio-image card-img-top"
+                alt="Whats Up There Mobile Page"
+            /></a>
+            <div class="card-body text-center">
+              <a
+                href="https://github.com/SeeShell/whats-up-there"
+                target="_blank"
+                ><i class="fab fa-github fa-3x portfolio-link"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+          <div class="col text-center portfolio">
+            <a
+              href="https://sylhuynh.github.io/moodies/index.html"
+              target="_blank"
+              ><img
+                src="./assets/images/moodies-mobile.png"
+                class="portfolio-image card-img-top"
+                alt="Moodies Mobile Page"
+            /></a>
+            <div class="card-body text-center">
+              <a href="https://github.com/sylhuynh/moodies" target="_blank"
+                ><i class="fab fa-github fa-3x portfolio-link"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col portfolio-text-right">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ad,
+              soluta voluptatibus, recusandae, magnam eius necessitatibus vel
+              cum error quidem magni dolorem tempora tempore dolor?
+            </p>
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-center portfolio-container">
+          <div class="col portfolio-text-right">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ad,
+              soluta voluptatibus, recusandae, magnam eius necessitatibus vel
+              cum error quidem magni dolorem tempora tempore dolor?
+            </p>
+          </div>
+          <div class="col text-center portfolio">
+            <a href="https://samwise2980.github.io/coding-quiz/" target="_blank"
+              ><img
+                src="./assets/images/coding-quiz-mobile.png"
+                class="portfolio-image card-img-top"
+                alt="Coding Quiz Mobile Page"
+            /></a>
+            <div class="card-body text-center">
+              <a
+                href="https://github.com/Samwise2980/coding-quiz"
+                target="_blank"
+                ><i class="fab fa-github fa-3x portfolio-link"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-center portfolio-container">
+          <div class="col text-center portfolio">
+            <a
+              href="https://samwise2980.github.io/weather-dashboard/"
+              target="_blank"
+              ><img
+                src="./assets/images/weather-dashboard-mobile.png"
+                class="portfolio-image card-img-top"
+                alt="Weather Dashboard Mobile Page"
+            /></a>
+            <div class="card-body text-center">
+              <a
+                href="https://github.com/Samwise2980/weather-dashboard"
+                target="_blank"
+                ><i class="fab fa-github fa-3x portfolio-link"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col portfolio-text-left">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ad,
+              soluta voluptatibus, recusandae, magnam eius necessitatibus vel
+              cum error quidem magni dolorem tempora tempore dolor?
+            </p>
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-center portfolio-container">
+          <div class="col portfolio-text-right">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ad,
+              soluta voluptatibus, recusandae, magnam eius necessitatibus vel
+              cum error quidem magni dolorem tempora tempore dolor?
+            </p>
+          </div>
+          <div class="col text-center portfolio">
+            <a
+              href="https://sheltered-ocean-89467.herokuapp.com/"
+              target="_blank"
+              ><img
+                src="./assets/images/note-taker.png"
+                class="portfolio-image card-img-top"
+                alt="Note Taker Web Page"
+            /></a>
+            <div class="card-body text-center">
+              <a
+                href="https://github.com/Samwise2980/note-taker"
+                target="_blank"
+                ><i class="fab fa-github fa-3x portfolio-link"></i
+              ></a>
+            </div>
+          </div>
         </div>
       </div>
+    </section>
 
-      <div class="row">
-        <div class="col mb-3">
-          <hr />
-        </div>
-      </div>
+    <section id="contact">
+      <div class="container"></div>
+    </section>
 
-      <section></section>
-      <div class="row d-flex justify-content-center">
-        <div class="col-sm m-3 text-center portfolio" style="width: 16rem">
-          <a href="https://gamersaurus.herokuapp.com/" target="_blank"><img src="./assets/images/gamersaurus.png"
-              class="portfolio-image card-img-top" alt="Gamersaurus Mobile Page" /></a>
-          <div class="card-body text-center">
-            <a href="https://github.com/amboffman/gamersaurus" target="_blank"><i
-                class="fab fa-github fa-3x portfolio-link"></i></a>
-          </div>
-        </div>
-        <div class="col-sm m-3 text-center portfolio" style="width: 16rem">
-          <a href="https://whats-up-there.herokuapp.com/" target="_blank"><img src="./assets/images/whats-up-there.png"
-              class="portfolio-image card-img-top" alt="Whats Up There Mobile Page" /></a>
-          <div class="card-body text-center">
-            <a href="https://github.com/SeeShell/whats-up-there" target="_blank"><i
-                class="fab fa-github fa-3x portfolio-link"></i></a>
-          </div>
-        </div>
-        <div class="col-sm m-3 text-center portfolio" style="width: 16rem">
-          <a href="https://sylhuynh.github.io/moodies/index.html" target="_blank"><img
-              src="./assets/images/moodies-mobile.png" class="portfolio-image card-img-top"
-              alt="Moodies Mobile Page" /></a>
-          <div class="card-body text-center">
-            <a href="https://github.com/sylhuynh/moodies" target="_blank"><i
-                class="fab fa-github fa-3x portfolio-link"></i></a>
-          </div>
-        </div>
-      </div>
-
-      <div class="row d-flex justify-content-center">
-        <div class="col-sm m-3 text-center portfolio" style="width: 16rem">
-          <a href="https://samwise2980.github.io/coding-quiz/" target="_blank"><img
-              src="./assets/images/coding-quiz-mobile.png" class="portfolio-image card-img-top"
-              alt="Coding Quiz Mobile Page" /></a>
-          <div class="card-body text-center">
-            <a href="https://github.com/Samwise2980/coding-quiz" target="_blank"><i
-                class="fab fa-github fa-3x portfolio-link"></i></a>
-          </div>
-        </div>
-        <div class="col-sm m-3 text-center portfolio" style="width: 16rem">
-          <a href="https://samwise2980.github.io/weather-dashboard/" target="_blank"><img
-              src="./assets/images/weather-dashboard-mobile.png" class="portfolio-image card-img-top"
-              alt="Weather Dashboard Mobile Page" /></a>
-          <div class="card-body text-center">
-            <a href="https://github.com/Samwise2980/weather-dashboard" target="_blank"><i
-                class="fab fa-github fa-3x portfolio-link"></i></a>
-          </div>
-        </div>
-        <div class="col-sm m-3 text-center portfolio" style="width: 16rem">
-          <a href="https://sheltered-ocean-89467.herokuapp.com/" target="_blank"><img
-              src="./assets/images/note-taker.png" class="portfolio-image card-img-top" alt="Note Taker Web Page" /></a>
-          <div class="card-body text-center">
-            <a href="https://github.com/Samwise2980/note-taker" target="_blank"><i
-                class="fab fa-github fa-3x portfolio-link"></i></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="contact">
-    <div class="container"></div>
-  </section>
-
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"></script>
-  <script src="https://kit.fontawesome.com/086e5e15ab.js" crossorigin="anonymous"></script>
-  <script src="./assets/js/script.js"></script>
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/086e5e15ab.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
 </html>

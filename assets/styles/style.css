@@ -66,43 +66,74 @@ hr {
   margin: 5px;
 }
 
+.vl {
+  border-left: 1px solid #000000;
+  height: 400px;
+  margin: 25px 0;
+}
+
+.portfolio-container{
+  margin: 25px 0;
+}
+
 .portfolio {
   border-radius: 10px;
   padding: 10px 0 10px 0;
   background-color: #424242;
+  margin: 1rem 5rem !important;
+  flex-grow: 0 !important;
+}
+
+.portfolio-image {
+  width: 13rem;
 }
 
 .portfolio-image:hover {
   opacity: 80%;
 }
 
+.portfolio-text-right {
+  float: right;
+  margin: 19% 0;
+  text-align: center !important;
+}
+
+.portfolio-text-left {
+  float: left;
+  margin: 19% 0;
+  text-align: center !important;
+}
+
 @media (max-width: 700px) {
   .landing-name-column {
     margin-top: 18vh;
   }
+
   #profile-pic {
     max-width: 250px;
     height: auto;
   }
+
   #aboutme-profile-col {
     text-align: center !important;
   }
+
   #aboutme-text-col {
     margin-top: 10px;
     padding-top: 25px;
     text-align: center !important;
   }
+
+  .portfolio-text-right {
+    float: right;
+    margin: 2% 0;
+    margin-bottom: 50px;
+    text-align: center !important;
+  }
+
 }
 
 @media (min-width: 701px) {
-  #aboutme-profile-col {
-    float: left !important;
-    margin: 9% 50px;
-  }
-  #aboutme-text-col {
-    float: left !important;
-    padding-top: 5%;
-  }
   .landing-name-column {
     margin-top: 26vh;
   }
@@ -110,5 +141,21 @@ hr {
   #profile-pic {
     max-width: 250px;
     height: auto;
+  }
+
+  #aboutme-profile-col {
+    float: left !important;
+    margin: 9% 50px;
+  }
+
+  #aboutme-text-col {
+    float: left !important;
+    padding-top: 5%;
+  }
+
+  .portfolio-text-right {
+    float: right;
+    margin: 19% 0;
+    text-align: center !important;
   }
 }

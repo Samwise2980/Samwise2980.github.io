@@ -61,7 +61,7 @@ hr {
 #aboutme-text-col {
   border-radius: 10px;
   color: #000000;
-  font-weight: 500;
+  font-weight: 450;
   background-color: #6f64552a;
   margin: 5px;
 }
@@ -131,6 +131,19 @@ hr {
     text-align: center !important;
   }
 
+  .portfolio-text-left {
+    float: left;
+    margin: 2% 0;
+    text-align: center !important;
+    display: none;
+  }
+
+  .portfolio-text-hidden{
+    float: right;
+    margin: 2% 0;
+    margin-bottom: 50px;
+    text-align: center !important;
+  }
 }
 
 @media (min-width: 701px) {
@@ -153,8 +166,18 @@ hr {
     padding-top: 5%;
   }
 
+  .portfolio-text-hidden{
+    display: none;
+  }
+
   .portfolio-text-right {
     float: right;
+    margin: 19% 0;
+    text-align: center !important;
+  }
+
+  .portfolio-text-left {
+    float: left;
     margin: 19% 0;
     text-align: center !important;
   }

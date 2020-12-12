@@ -25,10 +25,6 @@ ul#horizontal-list li {
   position: relative;
 }
 
-.landing-name-column {
-  margin-top: 26vh;
-}
-
 .landing-name {
   font-size: 100px;
   color: rgb(255, 255, 255);
@@ -44,16 +40,14 @@ nav {
   background-color: #30303000;
 }
 
-.navbar-dark .navbar-nav .nav-link{
+.navbar-dark .navbar-nav .nav-link {
   color: #ffffff;
   text-shadow: 1px 1px 5px #000000;
-
 }
 
-.navbar-toggler{
+.navbar-toggler {
   color: #ffffff;
   background-color: #303030;
-
 }
 
 hr {
@@ -74,7 +68,37 @@ hr {
   opacity: 80%;
 }
 
-@media (min-width: 400px) {
+@media (max-width: 700px) {
+
+  .landing-name-column {
+    margin-top: 18vh;
+  }
+  #profile-pic {
+    max-width: 250px;
+    height: auto;
+  }
+  .text-float-left {
+    text-align: center !important;
+  }
+  .text-float-right {
+    text-align: center !important;
+  }
+}
+
+@media (min-width: 701px) {
+
+  .text-float-left {
+    float: left !important;
+    margin: 9% 50px;
+  }
+  .text-float-right {
+    float:left !important;
+    margin-top: 5%;
+  }
+  .landing-name-column {
+    margin-top: 26vh;
+  }
+  
   #profile-pic {
     max-width: 250px;
     height: auto;

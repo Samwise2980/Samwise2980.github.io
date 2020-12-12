@@ -60,8 +60,9 @@ hr {
 
 #aboutme-text-col {
   border-radius: 10px;
-  color: #ffffff;
-  background-color: #6f6455;
+  color: #000000;
+  font-weight: 500;
+  background-color: #6f64552a;
   margin: 5px;
 }
 
